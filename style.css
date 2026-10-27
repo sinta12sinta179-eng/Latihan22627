@@ -1,22 +1,22 @@
 h1 {
-  background-color: #53ACA4;
-  color: #136D57;
+  background-color: #695FBC;
+  color: #4FA8D8;
   text-align: center;
 }
 
 a {
-  color: #15CEB7;
+  color: #71D1CC;
 }
 
 body {
-  background-color: #92D9DF";
+  background-color: #000FFF";
 
 }
 
 /* mengubah div menjadi tampilan kartu*/
 div.kartu-profil {
   background-color: #65A7FF;
-  width: 240px;
+  width: 250px;
   margin: 20px auto;
   padding: 20px;
   border-radius: 12px;
@@ -24,11 +24,12 @@ div.kartu-profil {
   text-align: center;
 }
 div.kartu-profil img{
-border-radius:50%;
-  border:6px solid;
+  border-radius: 50%;
+  border: 6px solid #2094D3;
 }
+ 
 .navigasi {
-  background-color: #8380D0;
+  background-color: #8888CE;
   padding: 10px;
   text-align: center;
   border-radius: 10px;
@@ -40,7 +41,7 @@ border-radius:50%;
 
 .navigasi .aktif {
   font-weight: bold;
-  color: #1568D9;
+  color: #FFFFFF;
 }
 
 div.kartu-kontak {
@@ -72,24 +73,26 @@ div.kartu-kontak {
   background-color: #333;
 }
 
-.galeri-container{
-text-align: center;
-max-width: 100%;
-margin: 0 auto;
+.galeri-container {
+  text-align: center;
+  max-width: 100%;
+  margin: 0 auto;
 }
+
 /*item galeri foto*/
-.galeri-item{
+.galeri-item {
   width: 50%;
-  max-width: 103px;
+  max-width: 150px;
+  margin: 10px;
+  border-radius: 5px;
   display: inline-block;
-  margin: 14px;
-  border-radius: 9px;
   overflow: hidden;
-  background-color: #8DBCEA;
+  background-color: #279EB5;
 }
+
 .galeri-item img {
-  width: 100px;
-  height: 160px;
+  width: 100%;
+  height: 150px;
   object-fit: cover;
 }
 .galeri-item p{
